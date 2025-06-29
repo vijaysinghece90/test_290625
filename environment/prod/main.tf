@@ -1,5 +1,6 @@
 # We strongly recommend using the required_providers block to set the
-
+# provider version to a specific version or range of versions.
+# This ensures that your configuration will always use the same version of the provider,
 terraform {
   required_providers {
     azurerm = {
